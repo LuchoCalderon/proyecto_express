@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <main>
+        <form >
+            <div >
+                <label  for="nombre">Nombre:</label>
+                <input type="text"  placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form">
+                <label  for="apellido"> Apellido:</label>
+                <input type="text"  placeholder="Escribe tu apellido" required>
+            </div>
+            <div >
+                <label  for="correo">Correo:</label>
+                <input type="email"  placeholder="Escribe tu correo" required>
+            </div>
+            <div class="form">
+                <label  for="comida_favorita"> Comida favorita:</label>
+                <input type="text"  placeholder="Escribe tu comida favorita" required>
+            </div>
+            
+            <div class="form">
+                <button  type="button"  onclick="enviar()">Enviar datos contacto
+                    <i>send</i>
+                </button>
+            </div>
+
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
